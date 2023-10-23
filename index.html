@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+    <title>Least Count</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- import the webpage's javascript file -->
+  </head>  
+  <body onload="begin()">
+  <h1 id="hi">
+    Least Count
+    </h1>
+      <div id="might">
+          <button onclick="might()">Change Defalt Settings</button>
+      </div>
+      
+      <div id="begin"><br>
+          <button onclick="other()">Use Default</button><br><br>
+          <button onclick="ask()">New Game</button>
+      </div><br>
+      <div id="show1">
+      <h2 id="edit1">Player 1</h2>
+    <input type="number" id="first">
+          <br><br>
+      </div>
+      <div id="show2">
+      <h2 id="edit2">Player 2</h2>
+    <input type="number" id="second">
+          <br><br>
+      </div>
+      <div id="show3">
+      <h2 id="edit3">Player 3</h2>
+    <input type="number" id="third">
+          <br><br>
+      </div>
+      <div id="show4">
+      <h2 id="edit4">Player 4</h2>
+    <input type="number" id="fourth">
+          <br><br>
+      </div>
+      <div id="show5">
+      <h2 id="edit5">Player 5</h2>
+    <input type="number" id="fifth">
+      </div>
+    <button onclick="next()" id="buttona" style="position:absolute;left:750px;">
+      Enter
+    </button><h1 class="showText" id="rou">Rounds</h1><h1 class="sumsText" id="ms">Sums</h1>
+    <table id="show" class="use">
+      
+    </table>
+          <table id="sums">
+      
+    </table>
+      
+
+    <script src="script.js" defer></script> 
+  </body>
+</html>

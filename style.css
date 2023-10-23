@@ -1,0 +1,104 @@
+.using{
+   text-decoration: line-through;
+    color:red;
+    
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  Background-color:Orange;
+  text-align:center;
+}
+
+h1 {
+  font-style: DodgerBlue;
+  color: #373fff;
+        font-family: 'Dancing Script', cursive;
+font-size:50px;
+
+}
+
+#hi{
+    font-size:80px;
+}
+
+.use{
+  background-color:green;
+  border:1px solid black;
+    position:absolute;
+    top:90px;
+ 
+
+
+}
+
+.use:hover{
+     z-index: -1;
+}
+
+.showText{
+        position:absolute;
+    top:0px;
+    size:25px;
+
+
+}
+
+.sumsText{
+        position:absolute;
+    top:0px;
+    right:10px;
+    size:25px;
+    
+
+
+}
+
+#sums{
+  background-color:green;
+  border:1px solid black;
+    position:absolute;
+    top:90px;
+    right:10px;
+    
+
+}
+
+
+
+h2{
+        font-family: 'Dancing Script', cursive;
+    color:red;
+    font-size:60px;
+}
+
+table{
+    font-size:30px;
+    color:turquoise;
+    font-family: 'Dancing Script', cursive;
+
+        
+}
+
+#show1{
+    position:absolute;
+    left:480px;
+}
+#show2{
+    position:absolute;
+    left:680px;
+}#show3{
+    position:absolute;
+    left:880px;
+}#show4{
+    position:absolute;
+    left:1080px;
+}#show5{
+    position:absolute;
+    left:1280px;
+}
+
+input{
+    width:160px;
+}
